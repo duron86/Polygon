@@ -23,7 +23,7 @@ public class PointsController {
 }
  private void showoptions(){   
  System.out.println("To są opcje programu.");
- System.out.println("Wybierz pole której figury chcesz obliczyć");
+ System.out.println("Wybierz pole której figury chcesz obliczyć wybierz 0,1,2, lub 3-dla zamknięcia");
  for(OPTIONS option:OPTIONS.values()){
      System.out.println(option);
  }
